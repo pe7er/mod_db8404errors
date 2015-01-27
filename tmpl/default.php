@@ -41,7 +41,7 @@ JHtml::_('bootstrap.tooltip');
 	<?php else : ?>
 		<div class="row-fluid">
 			<div class="span12">
-				<div class="alert"><?php echo JText::_('MOD_DB8_404ERRORS_NO_MATCHING_RESULTS'); ?></div>
+				<div class="alert"><?php echo JText::_('MOD_DB8404ERRORS_NO_MATCHING_RESULTS'); ?></div>
 			</div>
 		</div>
 	<?php endif; ?>
