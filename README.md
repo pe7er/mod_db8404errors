@@ -7,4 +7,4 @@ The 404 Errors can be seen in the Redirect Manager too. But having a list in the
 
 Thanks to:
 
-Marc Antoine Thevenet - for Translation of fr-FR language pack.
+* Marc Antoine Thevenet - for Translation of fr-FR language pack.
