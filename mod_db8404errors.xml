@@ -86,9 +86,7 @@
                         default="0"
                         label="COM_MODULES_FIELD_CACHING_LABEL"
                         description="COM_MODULES_FIELD_CACHING_DESC">
-                    <option
-                            value="0">MOD_DB8404ERRORS_FIELD_VALUE_NOCACHING
-                    </option>
+                    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
                 </field>
             </fieldset>
         </fields>
