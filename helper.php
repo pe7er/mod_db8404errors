@@ -25,7 +25,7 @@ abstract class ModDb8404errorsHelper
         if ($params->get('show') < 3) {
             $query->where('a.published = ' . $params->get('show'));
         }
-        $query->order($db->escape($params->get('ordering', 'a.old_url')) . ' ' . $db->escape($params->get('direction', 'ASC')));
+        $query->order($db->escape($params->get('ordering', 'a.hits')) . ' ' . $db->escape($params->get('direction', 'DESC')));
         $db->setQuery($query, 0, intval($params->get('count', 5)));
         $list = $db->loadObjectList();
 
