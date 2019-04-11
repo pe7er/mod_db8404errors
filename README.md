@@ -6,7 +6,7 @@ The 404 Errors can be seen in the Redirect Manager too. But having a list in the
 
 Language files included: de-DE, en-GB, es-ES, fr-FR, nl-NL, no-NO
 
-* Download extension: http://www.db8.nl/en/download/modules/db8-404-errors
+* Download extension: https://db8.eu/download/module/db8-404-errors
 * Joomla Extension Directory: http://extensions.joomla.org/extensions/extension/administration/admin-reports/db8-404-errors
 
 Thanks to:
