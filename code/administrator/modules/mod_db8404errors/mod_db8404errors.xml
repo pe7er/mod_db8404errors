@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="3.1" client="administrator" method="upgrade">
+<extension type="module" version="3.5" client="administrator" method="upgrade">
     <name>MOD_DB8404ERRORS</name>
     <author>Peter Martin</author>
     <creationDate>April 2019</creationDate>
@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2</license>
     <authorEmail>joomla@db8.nl</authorEmail>
     <authorUrl>www.db8.nl</authorUrl>
-    <version>1.1.1</version>
+    <version>1.2.0</version>
     <description>MOD_DB8404ERRORS_XML_DESCRIPTION</description>
     <files>
         <filename module="mod_db8404errors">mod_db8404errors.php</filename>
@@ -47,11 +47,11 @@
                         label="MOD_DB8404ERRORS_FIELD_ORDERING_LABEL"
                         description="MOD_DB8404ERRORS_FIELD_ORDERING_DESC">
                     <option value="a.old_url">MOD_DB8404ERRORS_FIELD_VALUE_ORDERING_EXPIREDURL</option>
-                    <option value="a.new_url">New URL</option>
-                    <option value="a.referer">Referring Page</option>
-                    <option value="a.created_date">Created Date</option>
-                    <option value="a.hits">404 Hits</option>
-                    <option value="a.id">ID</option>
+                    <option value="a.new_url">MOD_DB8404ERRORS_FIELD_VALUE_ORDERING_NEWURL</option>
+                    <option value="a.referer">MOD_DB8404ERRORS_FIELD_VALUE_ORDERING_REFERRINGPAGE</option>
+                    <option value="a.created_date">MOD_DB8404ERRORS_FIELD_VALUE_ORDERING_CREATED</option>
+                    <option value="a.hits">MOD_DB8404ERRORS_FIELD_VALUE_ORDERING_404HITS</option>
+                    <option value="a.id">MOD_DB8404ERRORS_FIELD_VALUE_ORDERING_ID</option>
                 </field>
 
                 <field
