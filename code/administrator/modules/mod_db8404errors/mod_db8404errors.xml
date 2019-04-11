@@ -2,12 +2,12 @@
 <extension type="module" version="3.1" client="administrator" method="upgrade">
     <name>MOD_DB8404ERRORS</name>
     <author>Peter Martin</author>
-    <creationDate>January 2015</creationDate>
-    <copyright>Copyright (C) 2015 by Peter Martin. All rights reserved.</copyright>
+    <creationDate>April 2019</creationDate>
+    <copyright>Copyright (C) 2015 - 2019 by Peter Martin. All rights reserved.</copyright>
     <license>GNU General Public License version 2</license>
     <authorEmail>joomla@db8.nl</authorEmail>
     <authorUrl>www.db8.nl</authorUrl>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <description>MOD_DB8404ERRORS_XML_DESCRIPTION</description>
     <files>
         <filename module="mod_db8404errors">mod_db8404errors.php</filename>
@@ -60,7 +60,7 @@
                         default="DESC"
                         label="JGLOBAL_ORDER_DIRECTION_LABEL"
                         description="JGLOBAL_ORDER_DIRECTION_DESC"
-                        >
+                >
                     <option value="ASC">JGLOBAL_ORDER_ASCENDING</option>
                     <option value="DESC">JGLOBAL_ORDER_DESCENDING</option>
                 </field>
@@ -92,6 +92,6 @@
         </fields>
     </config>
     <updateservers>
-        <server type="extension" priority="1" name="mod_db8404errors">http://www.db8.nl/updates/mod_db8404errors.xml</server>
+        <server type="extension" priority="1" name="mod_db8404errors">https://db8.eu/index.php?option=com_rdsubs&amp;view=updater&amp;format=xml&amp;element=mod_db8404errors</server>
     </updateservers>
 </extension>
