@@ -13,3 +13,4 @@ Thanks to:
 
 * Marc Antoine Thevenet - for French Translation (fr-FR language pack).
 * Rune Rasmussen - for Norwegian translation (no-NO language pack).
+* Nathalie Laurent - for improvements in German + French language packs
