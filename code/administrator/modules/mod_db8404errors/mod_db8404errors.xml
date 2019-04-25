@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension type="module" version="3.5" client="administrator" method="upgrade">
+<extension type="module" version="3.8" client="administrator" method="upgrade">
     <name>MOD_DB8404ERRORS</name>
     <author>Peter Martin</author>
     <creationDate>April 2019</creationDate>
@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2</license>
     <authorEmail>joomla@db8.nl</authorEmail>
     <authorUrl>www.db8.nl</authorUrl>
-    <version>1.2.0</version>
+    <version>1.3.0</version>
     <description>MOD_DB8404ERRORS_XML_DESCRIPTION</description>
     <files>
         <filename module="mod_db8404errors">mod_db8404errors.php</filename>
