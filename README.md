@@ -1,16 +1,35 @@
-# mod_db8404errors
+# db8 404 Errors
+
 Joomla Administrator Module to show a list of 404 Errors in the Cpanel of your Joomla website.
 
+##Versions
+- **Joomla 4** version: mod_db8404errors-**j4**-v1.4.0.zip
+- **Joomla 3** version: mod_db8404errors-**j3**-v1.4.0.zip
 
-The 404 Errors can be seen in the Redirect Manager too. But having a list in the admin back-end, that is visible for administrators right after login, might be more effective.
+##Languages
+Language files included:
+- German (de-DE)
+- English (en-GB)
+- Spanish (es-ES)
+- French (fr-FR)
+- Dutch (nl-NL)
+- Norwegian (no-NO)
 
-Language files included: de-DE, en-GB, es-ES, fr-FR, nl-NL, no-NO
+## Changelog
+6-Mar-2022 : v1.4.0
+- Added Joomla 4 version
 
-* Download extension: https://db8.eu/download/module/db8-404-errors
-* Joomla Extension Directory: http://extensions.joomla.org/extensions/extension/administration/admin-reports/db8-404-errors
+25-Apr-2019 : v1.3.0
+- Refactored to Joomla 3.8 code style
 
-Thanks to:
+11-Apr-2019 : v1.2.0
+- updated language file + links
+- Added Norwegian translation
+ 
+28-Jan-2015 : V1.1.0
+- Added DE, ES, FR, NL language files
 
+##Thanks to
 * Marc Antoine Thevenet - for French Translation (fr-FR language pack).
 * Rune Rasmussen - for Norwegian translation (no-NO language pack).
 * Nathalie Laurent - for improvements in German + French language packs

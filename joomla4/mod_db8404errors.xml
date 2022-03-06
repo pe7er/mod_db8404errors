@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>mod_db8404errors</name>
+    <author>Peter Martin</author>
+    <creationDate>March 2022</creationDate>
+    <copyright>Copyright (C) 2015-2022 by Peter Martin. All rights reserved.</copyright>
+    <license>GNU General Public License version 2</license>
+    <authorEmail>joomla@db8.nl</authorEmail>
+    <authorUrl>https://db8.nl</authorUrl>
+    <version>1.4.0</version>
+    <description>MOD_DB8404ERRORS_XML_DESCRIPTION</description>
+
+    <namespace path="src">Db8\Module\Db8404errors</namespace>
+
+    <files>
+        <filename module="mod_db8404errors">mod_db8404errors.php</filename>
+        <folder>language</folder>
+        <folder>src</folder>
+        <folder>tmpl</folder>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                        name="count"
+                        type="text"
+                        default="5"
+                        label="MOD_DB8404ERRORS_FIELD_COUNT_LABEL"
+                        description="MOD_DB8404ERRORS_FIELD_COUNT_DESC"/>
+
+                <field
+                        name="show"
+                        type="list"
+                        default="0"
+                        label="MOD_DB8404ERRORS_FIELD_SHOW_LABEL"
+                        description="MOD_DB8404ERRORS_FIELD_SHOW_DESC">
+                    <option value="3">JALL</option>
+                    <option value="0">JDISABLED</option>
+                    <option value="1">JENABLED</option>
+                    <option value="2">JARCHIVED</option>
+                    <option value="-2">JTRASHED</option>
+                </field>
+
+                <field
+                        name="ordering"
+                        type="list"
+                        default="hits"
+                        label="MOD_DB8404ERRORS_FIELD_ORDERING_LABEL"
+                        description="MOD_DB8404ERRORS_FIELD_ORDERING_DESC">
+                    <option value="old_url">MOD_DB8404ERRORS_FIELD_VALUE_ORDERING_EXPIREDURL</option>
+                    <option value="new_url">MOD_DB8404ERRORS_FIELD_VALUE_ORDERING_NEWURL</option>
+                    <option value="referer">MOD_DB8404ERRORS_FIELD_VALUE_ORDERING_REFERRINGPAGE</option>
+                    <option value="created_date">MOD_DB8404ERRORS_FIELD_VALUE_ORDERING_CREATED</option>
+                    <option value="hits">MOD_DB8404ERRORS_FIELD_VALUE_ORDERING_404HITS</option>
+                    <option value="id">MOD_DB8404ERRORS_FIELD_VALUE_ORDERING_ID</option>
+                </field>
+
+                <field
+                        name="direction"
+                        type="list"
+                        default="DESC"
+                        label="JGLOBAL_ORDER_DIRECTION_LABEL"
+                        description="JGLOBAL_ORDER_DIRECTION_DESC"
+                >
+                    <option value="ASC">JGLOBAL_ORDER_ASCENDING</option>
+                    <option value="DESC">JGLOBAL_ORDER_DESCENDING</option>
+                </field>
+
+            </fieldset>
+
+            <fieldset name="advanced">
+                <field
+                        name="layout"
+                        type="modulelayout"
+                        label="JFIELD_ALT_LAYOUT_LABEL"
+                        class="form-select"
+                        validate="moduleLayout"
+                />
+
+                <field
+                        name="moduleclass_sfx"
+                        type="textarea"
+                        label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                        rows="3"
+                        validate="CssIdentifier"
+                />
+
+                <field
+                        name="cache"
+                        type="list"
+                        label="COM_MODULES_FIELD_CACHING_LABEL"
+                        default="1"
+                        filter="integer"
+                        validate="options"
+                >
+                    <option value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+
+                <field
+                        name="cache_time"
+                        type="number"
+                        label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+                        default="900"
+                        filter="integer"
+                />
+
+                <field
+                        name="cachemode"
+                        type="hidden"
+                        default="static"
+                >
+                    <option value="static"></option>
+                </field>
+            </fieldset>
+
+        </fields>
+    </config>
+
+    <updateservers>
+        <server type="extension" name="mod_db8404errors">https://raw.githubusercontent.com/pe7er/mod_db8404errors/master/update.xml</server>
+    </updateservers>
+
+</extension>
