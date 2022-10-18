@@ -3,7 +3,7 @@
 Joomla Administrator Module to show a list of 404 Errors in the Cpanel of your Joomla website.
 
 ##Versions
-- **Joomla 4** version: mod_db8404errors-**j4**-v1.4.0.zip
+- **Joomla 4** version: mod_db8404errors-**j4**-v2.0.0.zip
 - **Joomla 3** version: mod_db8404errors-**j3**-v1.4.0.zip
 
 ##Languages
@@ -21,6 +21,7 @@ Language files included:
 
 ## Changelog Joomla 3
 10-Oct-2022 : v1.4.0
+- Fixed XSS issue
 - Changed the Update URL
 
 25-Apr-2019 : v1.3.0

@@ -12,7 +12,7 @@
         <downloads>
             <downloadurl type="full" format="zip">https://github.com/pe7er/mod_db8404errors/raw/master/downloads/mod_db8404errors-j3-v1.4.0.zip</downloadurl>
         </downloads>
-        <sha512>a5aa63d481e98ff9f8ba3f2bec61e4a1ea2133f3d60fa3ecbccdda2ce898a28cca8010ba3fa35abea5a4769a4e72aefebe2cad85ffb5cd2cf3e354f6dc7109dc</sha512>
+        <sha512>3cd29ba628da6ad149f3a85f49c7cc7a5af18627753038bc6288811965399203dad72aa3f626d6c060524cb88e5c2d5baca2d0ecdd8ec0c295c43e288313caed</sha512>
         <tags>
             <tag>stable</tag>
         </tags>
@@ -33,7 +33,7 @@
         <downloads>
             <downloadurl type="full" format="zip">https://github.com/pe7er/mod_db8404errors/raw/master/downloads/mod_db8404errors-j4-v2.0.0.zip</downloadurl>
         </downloads>
-        <sha512>d5ee73446ed9113058c2c76305271065a20f33172c331f58820dca21bd78e141cb5ab47f000a0a18c148385b11fae48ae19eba0fb089cfe65f01c0288d110d07</sha512>
+        <sha512>a86d73bd3a7b96174c9d3013e0ffa4d6b0628ee3d7cdb908872ce093561435ce6c1fcc04cb4d2aeed1c86a6d28397e3c748385939bd884e6bfeb3b03d7cd6ec2</sha512>
         <tags>
             <tag>stable</tag>
         </tags>

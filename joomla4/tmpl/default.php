@@ -38,10 +38,10 @@ $moduleId = str_replace(' ', '', $module->title) . $module->id;
                     <strong class="row-title break-word">
                         <?php if ($item->link) : ?>
                             <a href="<?php echo $item->link; ?>">
-                                <?php echo str_replace(Uri::root(), '', rawurldecode($item->old_url)); ?>
+                                <?php echo str_replace(Uri::root(), '', htmlspecialchars(rawurldecode($item->old_url))); ?>
                             </a>
                         <?php else : ?>
-                            <?php echo str_replace(Uri::root(), '', rawurldecode($item->old_url)); ?>
+                            <?php echo str_replace(Uri::root(), '', htmlspecialchars(rawurldecode($item->old_url))); ?>
                         <?php endif; ?>
                     </strong>
                 </th>
