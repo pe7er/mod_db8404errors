@@ -15,9 +15,13 @@ Language files included:
 - Dutch (nl-NL)
 - Norwegian (no-NO)
 
-## Changelog
-6-Mar-2022 : v1.4.0
-- Added Joomla 4 version
+## Changelog Joomla 4
+10-Oct-2022 : v2.0.0
+- Rewritten Joomla 4 version
+
+## Changelog Joomla 3
+10-Oct-2022 : v1.4.0
+- Changed the Update URL
 
 25-Apr-2019 : v1.3.0
 - Refactored to Joomla 3.8 code style
