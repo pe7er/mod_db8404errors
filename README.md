@@ -16,6 +16,10 @@ Language files included:
 - Norwegian (no-NO)
 
 ## Changelog Joomla 4
+31-Oct-2022 : v2.0.1
+- Fixed issue with xml manifest (Thanks @extonjaez + @AlainRnet)
+- Updated FR language file (Thanks @MATsxm)
+
 10-Oct-2022 : v2.0.0
 - Rewritten Joomla 4 version
 

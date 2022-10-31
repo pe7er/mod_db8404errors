@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2</license>
     <authorEmail>joomla@db8.nl</authorEmail>
     <authorUrl>https://db8.nl</authorUrl>
-    <version>2.0.0</version>
+    <version>2.0.1</version>
     <description>MOD_DB8404ERRORS_XML_DESCRIPTION</description>
 
     <namespace path="src">Db8\Module\Db8404errors</namespace>
