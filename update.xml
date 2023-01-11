@@ -2,7 +2,7 @@
 <updates>
     <update>
 
-        <name>mod_db8404errors 1.4.0</name>
+        <name>mod_db8404errors 1.4.1</name>
         <description>Module to display the most recent added weblinks from the Weblinks component.</description>
         <element>mod_db8404errors</element>
         <type>module</type>
@@ -10,9 +10,9 @@
         <version>1.4.0</version>
         <infourl title="mod_db8404errors">https://github.com/pe7er/mod_db8404errors</infourl>
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/pe7er/mod_db8404errors/raw/master/downloads/mod_db8404errors-j3-v1.4.0.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/pe7er/mod_db8404errors/raw/master/downloads/mod_db8404errors-j3-v1.4.1.zip</downloadurl>
         </downloads>
-        <sha512>3cd29ba628da6ad149f3a85f49c7cc7a5af18627753038bc6288811965399203dad72aa3f626d6c060524cb88e5c2d5baca2d0ecdd8ec0c295c43e288313caed</sha512>
+        <sha512>c0b503b18cc310664fd20e20d4474f2142d1c16a409266c51bc0b8f5f5606c8d</sha512>
         <tags>
             <tag>stable</tag>
         </tags>

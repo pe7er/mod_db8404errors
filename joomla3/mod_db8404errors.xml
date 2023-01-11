@@ -2,12 +2,12 @@
 <extension type="module" version="3.9" client="administrator" method="upgrade">
     <name>mod_db8404errors</name>
     <author>Peter Martin</author>
-    <creationDate>March 2022</creationDate>
-    <copyright>Copyright (C) 2015-2022 by Peter Martin. All rights reserved.</copyright>
+    <creationDate>January 2023</creationDate>
+    <copyright>Copyright (C) 2015-2023 by Peter Martin. All rights reserved.</copyright>
     <license>GNU General Public License version 2</license>
     <authorEmail>joomla@db8.nl</authorEmail>
     <authorUrl>https://db8.nl</authorUrl>
-    <version>1.4.0</version>
+    <version>1.4.1</version>
     <description>MOD_DB8404ERRORS_XML_DESCRIPTION</description>
 
     <files>
